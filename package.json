@@ -1,0 +1,17 @@
+{
+  "name": "@webamboos/iot",
+  "type": "module",
+  "scripts": {
+    "dev": "sst dev",
+    "test": "sst shell -- vitest"
+  },
+  "dependencies": {
+    "sst": "3.1.7"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.145",
+    "prettier": "^3.3.3",
+    "typescript": "5.6.2",
+    "vitest": "2.0.5"
+  }
+}
